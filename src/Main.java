@@ -7,6 +7,11 @@ class BankAccount{
 class CheckingAccount extends BankAccount{
     double limit;
 }
+
 class SavingsAccount extends BankAccount{
 }
+
+class COD extends BankAccount{
+}
+
 
