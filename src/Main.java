@@ -19,6 +19,10 @@ public class Main {
         certificatDeDepot.account =  "D001";
         certificatDeDepot.balance = 10000;
 
+        // lire les valeurs (affichage)
+        System.out.println("Le compte courant a pour compte " + compteCourant.account + " et son solde est " + compteCourant.balance);
+        System.out.println("Le compte d'épargne a pour compte "+ comptEpargne.account + " et son solde est " + comptEpargne.balance);
+        System.out.println("Le certificat de dépôt a pour compte "+ certificatDeDepot.account + " et son solde est " + certificatDeDepot.balance);
     }
     }
 class BankAccount{
