@@ -4,3 +4,7 @@ class BankAccount{
     String account;
     double balance;
 }
+class CheckingAccount extends BankAccount{
+    double limit;
+}
+
